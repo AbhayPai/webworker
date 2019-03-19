@@ -7,7 +7,7 @@ import BaseController from 'ControllerPath/BaseController';
 new BaseController().registerController({
     preprocess: function() {
         try {
-            App.callback.workerOne = new Worker('/assets/js/webworkerdata.js');
+            App.callback.workerOne = new Worker('./assets/js/webworkerdata.js');
         } catch (e) {
             // Do nothing.
         }
