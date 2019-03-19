@@ -1,0 +1,8 @@
+{{~#each this ~}}
+    <div class="posts{{#if @last}} last{{/if}}">
+        <pre>Id => {{id}}</pre>
+        <pre>UserId => {{userId}}</pre>
+        <pre>Title => {{title}}</pre>
+        <pre>Body => {{body}}</pre>
+    </div>
+{{/each}}

@@ -1,0 +1,14 @@
+body {
+    min-width: 416px !important;
+}
+
+.posts {
+    border-bottom: 1px solid #000;
+    margin-bottom: 1rem;
+
+    pre,
+    &.last {
+        border: none;
+        margin-bottom: 0;
+    }
+}
